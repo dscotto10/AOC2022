@@ -2,8 +2,8 @@ package main
 
 import ("fmt"
         "io/ioutil"
-		    "strings"
-		    "strconv"
+	"strings"
+	"strconv"
         "sort"
 )
 
@@ -72,7 +72,7 @@ func main() {
     max_calories := find_max(elf_calories)
     top_3_elves := get_top_3(elf_calories)
     
-	fmt.Println("1A:",max_calories)
+    fmt.Println("1A:",max_calories)
     fmt.Println("1B:",top_3_elves)
 
     
